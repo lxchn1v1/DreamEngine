@@ -1,19 +1,14 @@
 #![allow(clippy::single_component_path_imports)]
 
-//! [![](https://bevyengine.org/assets/bevy_logo_docs.svg)](https://bevyengine.org)
+//! [Download](https://lxchn1v1.github.io/DreamEngine/download.html)
 //!
-//! Bevy is an open-source modular game engine built in Rust, with a focus on developer productivity
-//! and performance.
-//!
-//! Check out the [Bevy website](https://bevyengine.org) for more information, read the
-//! [Bevy Book](https://bevyengine.org/learn/book/introduction) for a step-by-step guide, and [engage with our
-//! community](https://bevyengine.org/community/) if you have any questions or ideas!
+//! Dream Engine is a Bevy engine based game engine, made with love by AsyncLoaders and BadDreams Studio
 //!
 //! ## Example
 //!
-//! Here is a simple "Hello World" Bevy app:
+//! Here is a simple "Hello World" Dream Engine app:
 //! ```
-//! use bevy::prelude::*;
+//! use dreamengine::prelude::*;
 //!
 //! fn main() {
 //!    App::new()
@@ -28,17 +23,7 @@
 //!
 //! Don't let the simplicity of the example above fool you. Bevy is a [fully featured game engine](https://bevyengine.org)
 //! and it gets more powerful every day!
-//!
-//! ## This Crate
-//!
-//! The `bevy` crate is just a container crate that makes it easier to consume Bevy subcrates.
-//! The defaults provide a "full" engine experience, but you can easily enable / disable features
-//! in your project's `Cargo.toml` to meet your specific needs. See Bevy's `Cargo.toml` for a full
-//! list of features available.
-//!
-//! If you prefer, you can also consume the individual bevy crates directly.
-//! Each module in the root of this crate, except for the prelude, can be found on crates.io
-//! with `bevy_` appended to the front, e.g. `app` -> [`bevy_app`](https://docs.rs/bevy_app/*/bevy_app/).
+
 #![doc = include_str!("../README.md")]
 #![doc(
     html_logo_url = "https://raw.githubusercontent.com/lxchn1v1/lxchn1v1.github.io/main/public/images/profile.jpg",
