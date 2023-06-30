@@ -1,15 +1,15 @@
 [package]
-name = "bevy"
+name = "dreamengine"
 version = "0.11.0-dev"
 edition = "2021"
 categories = ["game-engines", "graphics", "gui", "rendering"]
 description = "A refreshingly simple data-driven game engine and app framework"
 exclude = ["assets/", "tools/", ".github/", "crates/", "examples/wasm/assets/"]
 homepage = "https://bevyengine.org"
-keywords = ["game", "engine", "gamedev", "graphics", "bevy"]
+keywords = ["game", "engine", "gamedev", "graphics", "baddreams"]
 license = "MIT OR Apache-2.0"
 readme = "README.md"
-repository = "https://github.com/bevyengine/bevy"
+repository = "https://github.com/lxchn1v1/DreamEngine"
 rust-version = "1.70.0"
 
 [workspace]
