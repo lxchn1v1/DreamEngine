@@ -42,4 +42,4 @@ jobs:
       - uses: actions/upload-artifact@v3
         with:
           name: BINARY-${{ matrix.os }}
-          path: target
+          path: target/debug/libdreamengine.rlib
