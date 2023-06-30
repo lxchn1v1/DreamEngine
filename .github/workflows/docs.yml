@@ -40,7 +40,7 @@ jobs:
       #   - A .nojekyll file to disable Jekyll GitHub Pages builds.
       - name: Finalize documentation
         run: |
-          echo "<meta http-equiv=\"refresh\" content=\"0; url=bevy/index.html\">" > target/doc/index.html
+          echo "<meta http-equiv=\"refresh\" content=\"0; url=dreamengine/index.html\">" > target/doc/index.html
           echo "dev-docs.bevyengine.org" > target/doc/CNAME
           echo "User-Agent: *\nDisallow: /" > target/doc/robots.txt
           touch target/doc/.nojekyll
