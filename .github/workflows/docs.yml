@@ -31,7 +31,7 @@ jobs:
           echo "<meta name=\"robots\" content=\"noindex\">" > header.html
 
       - name: Build docs
-        run: cargo doc --all-features --no-deps -p bevy
+        run: cargo doc --all-features --no-deps -p dreamengine
 
       #  This adds the following:
       #   - A top level redirect to the bevy crate documentation
