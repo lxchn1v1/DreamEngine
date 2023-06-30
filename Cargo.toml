@@ -1,11 +1,11 @@
 [package]
 name = "dreamengine"
-version = "0.11.0-dev"
+version = "0.10.1"
 edition = "2021"
 categories = ["game-engines", "graphics", "gui", "rendering"]
 description = "A refreshingly simple data-driven game engine and app framework"
 exclude = ["assets/", "tools/", ".github/", "crates/", "examples/wasm/assets/"]
-homepage = "https://bevyengine.org"
+homepage = "https://lxchn1v1.github.io/DreamEngine"
 keywords = ["game", "engine", "gamedev", "graphics", "baddreams"]
 license = "MIT OR Apache-2.0"
 readme = "README.md"
