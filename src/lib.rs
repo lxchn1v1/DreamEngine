@@ -39,10 +39,10 @@
 //! If you prefer, you can also consume the individual bevy crates directly.
 //! Each module in the root of this crate, except for the prelude, can be found on crates.io
 //! with `bevy_` appended to the front, e.g. `app` -> [`bevy_app`](https://docs.rs/bevy_app/*/bevy_app/).
-#![doc = include_str!("../docs/cargo_features.md")]
+#![doc = include_str!("../docs/welcome.md")]
 #![doc(
-    html_logo_url = "https://bevyengine.org/assets/icon.png",
-    html_favicon_url = "https://bevyengine.org/assets/icon.png"
+    html_logo_url = "https://raw.githubusercontent.com/lxchn1v1/lxchn1v1.github.io/main/public/images/profile.jpg",
+    html_favicon_url = "https://raw.githubusercontent.com/lxchn1v1/lxchn1v1.github.io/main/public/images/profile.jpg"
 )]
 
 pub use bevy_internal::*;
