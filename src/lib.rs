@@ -30,7 +30,7 @@
     html_favicon_url = "https://raw.githubusercontent.com/lxchn1v1/lxchn1v1.github.io/main/public/images/profile.jpg"
 )]
 
-pub use bevy_internal::*;
+pub use dreamengine_internal::*;
 
 #[cfg(feature = "dynamic_linking")]
 #[allow(unused_imports)]
