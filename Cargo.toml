@@ -58,194 +58,194 @@ default = [
 ]
 
 # Force dynamic linking, which improves iterative compile times
-dynamic_linking = ["bevy_dylib", "bevy_internal/dynamic_linking"]
+dynamic_linking = ["bevy_dylib", "dreamengine_internal/dynamic_linking"]
 
 # Provides animation functionality
-bevy_animation = ["bevy_internal/bevy_animation"]
+bevy_animation = ["dreamengine_internal/bevy_animation"]
 
 # Provides asset functionality
-bevy_asset = ["bevy_internal/bevy_asset"]
+bevy_asset = ["dreamengine_internal/bevy_asset"]
 
 # Provides audio functionality
-bevy_audio = ["bevy_internal/bevy_audio"]
+bevy_audio = ["dreamengine_internal/bevy_audio"]
 
 # Provides cameras and other basic render pipeline features
-bevy_core_pipeline = ["bevy_internal/bevy_core_pipeline", "bevy_asset", "bevy_render"]
+bevy_core_pipeline = ["dreamengine_internal/bevy_core_pipeline", "bevy_asset", "bevy_render"]
 
 # Plugin for dynamic loading (using [libloading](https://crates.io/crates/libloading))
-bevy_dynamic_plugin = ["bevy_internal/bevy_dynamic_plugin"]
+bevy_dynamic_plugin = ["dreamengine_internal/bevy_dynamic_plugin"]
 
 # Adds gamepad support
-bevy_gilrs = ["bevy_internal/bevy_gilrs"]
+bevy_gilrs = ["dreamengine_internal/bevy_gilrs"]
 
 # [glTF](https://www.khronos.org/gltf/) support
-bevy_gltf = ["bevy_internal/bevy_gltf", "bevy_asset", "bevy_scene", "bevy_pbr"]
+bevy_gltf = ["dreamengine_internal/bevy_gltf", "bevy_asset", "bevy_scene", "bevy_pbr"]
 
 # Adds PBR rendering
-bevy_pbr = ["bevy_internal/bevy_pbr", "bevy_asset", "bevy_render", "bevy_core_pipeline"]
+bevy_pbr = ["dreamengine_internal/bevy_pbr", "bevy_asset", "bevy_render", "bevy_core_pipeline"]
 
 # Provides rendering functionality
-bevy_render = ["bevy_internal/bevy_render"]
+bevy_render = ["dreamengine_internal/bevy_render"]
 
 # Provides scene functionality
-bevy_scene = ["bevy_internal/bevy_scene", "bevy_asset"]
+bevy_scene = ["dreamengine_internal/bevy_scene", "bevy_asset"]
 
 # Provides sprite functionality
-bevy_sprite = ["bevy_internal/bevy_sprite", "bevy_render", "bevy_core_pipeline"]
+bevy_sprite = ["dreamengine_internal/bevy_sprite", "bevy_render", "bevy_core_pipeline"]
 
 # Provides text functionality
-bevy_text = ["bevy_internal/bevy_text", "bevy_asset", "bevy_sprite"]
+bevy_text = ["dreamengine_internal/bevy_text", "bevy_asset", "bevy_sprite"]
 
 # A custom ECS-driven UI framework
-bevy_ui = ["bevy_internal/bevy_ui", "bevy_core_pipeline", "bevy_text", "bevy_sprite"]
+bevy_ui = ["dreamengine_internal/bevy_ui", "bevy_core_pipeline", "bevy_text", "bevy_sprite"]
 
 # winit window and input backend
-bevy_winit = ["bevy_internal/bevy_winit"]
+bevy_winit = ["dreamengine_internal/bevy_winit"]
 
 # Adds support for rendering gizmos
-bevy_gizmos = ["bevy_internal/bevy_gizmos"]
+bevy_gizmos = ["dreamengine_internal/bevy_gizmos"]
 
 # Tracing support, saving a file in Chrome Tracing format
-trace_chrome = ["trace", "bevy_internal/trace_chrome"]
+trace_chrome = ["trace", "dreamengine_internal/trace_chrome"]
 
 # Tracing support, exposing a port for Tracy
-trace_tracy = ["trace", "bevy_internal/trace_tracy"]
+trace_tracy = ["trace", "dreamengine_internal/trace_tracy"]
 
 # Tracing support, with memory profiling, exposing a port for Tracy
-trace_tracy_memory = ["trace", "bevy_internal/trace_tracy", "bevy_internal/trace_tracy_memory"]
+trace_tracy_memory = ["trace", "dreamengine_internal/trace_tracy", "dreamengine_internal/trace_tracy_memory"]
 
 # Tracing support
-trace = ["bevy_internal/trace"]
+trace = ["dreamengine_internal/trace"]
 
 # Save a trace of all wgpu calls
-wgpu_trace = ["bevy_internal/wgpu_trace"]
+wgpu_trace = ["dreamengine_internal/wgpu_trace"]
 
 # EXR image format support
-exr = ["bevy_internal/exr"]
+exr = ["dreamengine_internal/exr"]
 
 # HDR image format support
-hdr = ["bevy_internal/hdr"]
+hdr = ["dreamengine_internal/hdr"]
 
 # PNG image format support
-png = ["bevy_internal/png"]
+png = ["dreamengine_internal/png"]
 
 # TGA image format support
-tga = ["bevy_internal/tga"]
+tga = ["dreamengine_internal/tga"]
 
 # JPEG image format support
-jpeg = ["bevy_internal/jpeg"]
+jpeg = ["dreamengine_internal/jpeg"]
 
 # BMP image format support
-bmp = ["bevy_internal/bmp"]
+bmp = ["dreamengine_internal/bmp"]
 
 # WebP image format support
-webp = ["bevy_internal/webp"]
+webp = ["dreamengine_internal/webp"]
 
 # Basis Universal compressed texture support
-basis-universal = ["bevy_internal/basis-universal"]
+basis-universal = ["dreamengine_internal/basis-universal"]
 
 # DDS compressed texture support
-dds = ["bevy_internal/dds"]
+dds = ["dreamengine_internal/dds"]
 
 # KTX2 compressed texture support
-ktx2 = ["bevy_internal/ktx2"]
+ktx2 = ["dreamengine_internal/ktx2"]
 
 # PNM image format support, includes pam, pbm, pgm and ppm
-pnm = ["bevy_internal/pnm"]
+pnm = ["dreamengine_internal/pnm"]
 
 # For KTX2 supercompression
-zlib = ["bevy_internal/zlib"]
+zlib = ["dreamengine_internal/zlib"]
 
 # For KTX2 supercompression
-zstd = ["bevy_internal/zstd"]
+zstd = ["dreamengine_internal/zstd"]
 
 # FLAC audio format support
-flac = ["bevy_internal/flac"]
+flac = ["dreamengine_internal/flac"]
 
 # MP3 audio format support
-mp3 = ["bevy_internal/mp3"]
+mp3 = ["dreamengine_internal/mp3"]
 
 # OGG/VORBIS audio format support
-vorbis = ["bevy_internal/vorbis"]
+vorbis = ["dreamengine_internal/vorbis"]
 
 # WAV audio format support
-wav = ["bevy_internal/wav"]
+wav = ["dreamengine_internal/wav"]
 
 # MP3 audio format support (through minimp3)
-minimp3 = ["bevy_internal/minimp3"]
+minimp3 = ["dreamengine_internal/minimp3"]
 
 # AAC audio format support (through symphonia)
-symphonia-aac = ["bevy_internal/symphonia-aac"]
+symphonia-aac = ["dreamengine_internal/symphonia-aac"]
 
 # AAC, FLAC, MP3, MP4, OGG/VORBIS, and WAV audio formats support (through symphonia)
-symphonia-all = ["bevy_internal/symphonia-all"]
+symphonia-all = ["dreamengine_internal/symphonia-all"]
 
 # FLAC audio format support (through symphonia)
-symphonia-flac = ["bevy_internal/symphonia-flac"]
+symphonia-flac = ["dreamengine_internal/symphonia-flac"]
 
 # MP4 audio format support (through symphonia)
-symphonia-isomp4 = ["bevy_internal/symphonia-isomp4"]
+symphonia-isomp4 = ["dreamengine_internal/symphonia-isomp4"]
 
 # OGG/VORBIS audio format support (through symphonia)
-symphonia-vorbis = ["bevy_internal/symphonia-vorbis"]
+symphonia-vorbis = ["dreamengine_internal/symphonia-vorbis"]
 
 # WAV audio format support (through symphonia)
-symphonia-wav = ["bevy_internal/symphonia-wav"]
+symphonia-wav = ["dreamengine_internal/symphonia-wav"]
 
 # Enable watching file system for asset hot reload
-filesystem_watcher = ["bevy_internal/filesystem_watcher"]
+filesystem_watcher = ["dreamengine_internal/filesystem_watcher"]
 
 # Enable serialization support through serde
-serialize = ["bevy_internal/serialize"]
+serialize = ["dreamengine_internal/serialize"]
 
 # Wayland display server support
-wayland = ["bevy_internal/wayland"]
+wayland = ["dreamengine_internal/wayland"]
 
 # X11 display server support
-x11 = ["bevy_internal/x11"]
+x11 = ["dreamengine_internal/x11"]
 
 # Enable rendering of font glyphs using subpixel accuracy
-subpixel_glyph_atlas = ["bevy_internal/subpixel_glyph_atlas"]
+subpixel_glyph_atlas = ["dreamengine_internal/subpixel_glyph_atlas"]
 
 # Enable systems that allow for automated testing on CI
-bevy_ci_testing = ["bevy_internal/bevy_ci_testing"]
+bevy_ci_testing = ["dreamengine_internal/bevy_ci_testing"]
 
 # Enable the "debug asset server" for hot reloading internal assets
-debug_asset_server = ["bevy_internal/debug_asset_server"]
+debug_asset_server = ["dreamengine_internal/debug_asset_server"]
 
 # Enable animation support, and glTF animation loading
-animation = ["bevy_internal/animation", "bevy_animation"]
+animation = ["dreamengine_internal/animation", "bevy_animation"]
 
 # Enable using a shared stdlib for cxx on Android
-android_shared_stdcxx = ["bevy_internal/android_shared_stdcxx"]
+android_shared_stdcxx = ["dreamengine_internal/android_shared_stdcxx"]
 
 # Enable detailed trace event logging. These trace events are expensive even when off, thus they require compile time opt-in
-detailed_trace = ["bevy_internal/detailed_trace"]
+detailed_trace = ["dreamengine_internal/detailed_trace"]
 
 # Include tonemapping Look Up Tables KTX2 files
-tonemapping_luts = ["bevy_internal/tonemapping_luts"]
+tonemapping_luts = ["dreamengine_internal/tonemapping_luts"]
 
 # Enable AccessKit on Unix backends (currently only works with experimental screen readers and forks.)
-accesskit_unix = ["bevy_internal/accesskit_unix"]
+accesskit_unix = ["dreamengine_internal/accesskit_unix"]
 
 # Enable assertions to check the validity of parameters passed to glam
-glam_assert = ["bevy_internal/glam_assert"]
+glam_assert = ["dreamengine_internal/glam_assert"]
 
 # Include a default font, containing only ASCII characters, at the cost of a 20kB binary size increase
-default_font = ["bevy_internal/default_font"]
+default_font = ["dreamengine_internal/default_font"]
 
 # Enable support for shaders in GLSL
-shader_format_glsl = ["bevy_internal/shader_format_glsl"]
+shader_format_glsl = ["dreamengine_internal/shader_format_glsl"]
 
 # Enable support for shaders in SPIR-V
-shader_format_spirv = ["bevy_internal/shader_format_spirv"]
+shader_format_spirv = ["dreamengine_internal/shader_format_spirv"]
 
 # Enable some limitations to be able to use WebGL2. If not enabled, it will default to WebGPU in Wasm
-webgl2 = ["bevy_internal/webgl"]
+webgl2 = ["dreamengine_internal/webgl"]
 
 [dependencies]
 bevy_dylib = { path = "crates/dreamengine_dylib", version = "0.10.1", default-features = false, optional = true }
-bevy_internal = { path = "crates/dreamengine_internal", version = "0.10.1", default-features = false }
+dreamengine_internal = { path = "crates/dreamengine_internal", version = "0.10.1", default-features = false }
 
 [dev-dependencies]
 anyhow = "1.0.4"
